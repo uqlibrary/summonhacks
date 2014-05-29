@@ -14,6 +14,6 @@ $(document).ready(function() {
   $('div.search div.queryBox span.caret').parent().attr('title','advanced search');
 
   //Add text to the advanced search button to clearly indicate what it is
-  $('div.search div.queryBox span.caret').parent().attr('value', 'Advanced');
+  $('div.search div.queryBox span.caret').parent().prepend('Advanced');
 
 });
