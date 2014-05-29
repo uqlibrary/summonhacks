@@ -36,13 +36,11 @@
     text-align: center;
 }
 
+/* Make back to basic link blue to match the default link colour */
 .backToBasic {
     color: #08c !important;
 }
 
-/* Make back to basic link in header white, different from other back to basic link */
-.advancedBtn .backToBasic {
-    color: #ffffff !important;
-}
+
 
 
