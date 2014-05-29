@@ -20,7 +20,6 @@
 /* Move search button to deal with advanced text addition to button */
 .queryBox .searchBtn {
     width: 5em !important;
-    right: 2.3em !important;
 }
 /* disable the pointless language switch (only 1 option anyway) */
 .languageSwitcher {
