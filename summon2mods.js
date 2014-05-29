@@ -1,7 +1,17 @@
+// Thanks to GVSU https://github.com/gvsulib/Summon-2.0-Scripts) and others for sharing your summon hacks
+
 $(document).ready(function() {
 
-  var cssPath = '//raw.githubusercontent.com/uqlibrary/summonhacks/master/',libDetailPageId, newHref, libCurrentURL, record, recordParts, thisID,libCurrentURL = window.location.hash.substring(1);
+  //Dev
+//  var cssPath = '//bypass.hazchem.library.uq.edu.au/summonhacks/summonhacks/',libDetailPageId, newHref, libCurrentURL, record, recordParts, thisID,libCurrentURL = window.location.hash.substring(1);
+  //Staging
+  var cssPath = '//libio.library.uq.edu.au/summonhacks/',libDetailPageId, newHref, libCurrentURL, record, recordParts, thisID,libCurrentURL = window.location.hash.substring(1);
   // Add custom styles
   $('head').append('<link rel="stylesheet" type="text/css" href="' + cssPath + 'summon2mods.css" />');
+
+  // Accessibility added for advanced search titles
+  $('div.searchBox div.queryBox span.caret').parent().attr('title','advanced search');
+  $('div.search div.queryBox span.caret').parent().attr('title','advanced search');
+
 
 });
