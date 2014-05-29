@@ -18,3 +18,7 @@
     width: 5em !important;
     right: 2.3em !important;
 }
+
+.languageSwitcher {
+    display: none !important;
+}
