@@ -35,3 +35,14 @@
     padding: 1em;
     text-align: center;
 }
+
+.backToBasic {
+    color: #08c !important;
+}
+
+/* Make back to basic link in header white, different from other back to basic link */
+.advancedBtn .backToBasic {
+    color: #ffffff !important;
+}
+
+
