@@ -5,7 +5,7 @@ $(document).ready(function() {
   //Dev
 //  var cssPath = '//bypass.hazchem.library.uq.edu.au/summonhacks/summonhacks/',libDetailPageId, newHref, libCurrentURL, record, recordParts, thisID,libCurrentURL = window.location.hash.substring(1);
   //Staging
-  var cssPath = '//libio.library.uq.edu.au/summonhacks/',libDetailPageId, newHref, libCurrentURL, record, recordParts, thisID,libCurrentURL = window.location.hash.substring(1);
+  var cssPath = '//www.library.uq.edu.au/summonhacks/',libDetailPageId, newHref, libCurrentURL, record, recordParts, thisID,libCurrentURL = window.location.hash.substring(1);
   // Add custom styles
   $('head').append('<link rel="stylesheet" type="text/css" href="' + cssPath + 'summon2mods.css" />');
 
