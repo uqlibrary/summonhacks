@@ -16,4 +16,7 @@ $(document).ready(function() {
   //Add text to the advanced search button to clearly indicate what it is
   $('div.buttons span.caret').parent().prepend('Advanced');
 
+  //Add the filter group class to the clearRefinements section to give it a divider
+  $('div.ng-binding.clearRefinements').addClass('FilterGroup');
+
 });
