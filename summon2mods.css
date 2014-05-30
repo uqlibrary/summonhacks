@@ -28,11 +28,10 @@
 
 /* Make Clear Refinements Link more noticeable */
 .clearRefinements {
-    background: #88b3da;
-    font-size: 1.1em;
+    font-size: 90%;
     font-weight: bold;
-    padding: 1em;
-    text-align: center;
+    bottom-padding: 0.8em;
+    text-transform: uppercase;
 }
 
 /* Make back to basic link blue to match the default link colour */
