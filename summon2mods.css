@@ -1,44 +1,5 @@
-/* Move badge to deal with advanced text addition to button */
-.badgeContainer .badge {
-    left: 5px !important;
-}
-/* Move folder to deal with advanced text addition to button */
-.site-save_folder {
-    background-position: 0 -136px !important;
-    margin-left: 14px !important;
-}
-
-/* Move advanced search button to deal with advanced text addition to button */
-.queryBox .advancedBtn {
-    width: 6.5em !important;
-    right: -4.7em !important;
-    margin-right: -5px !important;
-    white-space: nowrap !important;
-    padding: 4px !important;
-}
-
-/* Move search button to deal with advanced text addition to button */
-.queryBox .searchBtn {
-    width: 5em !important;
-}
 /* disable the pointless language switch (only 1 option anyway) */
 .languageSwitcher {
     display: none !important;
 }
-
-/* Make Clear Refinements Link more noticeable */
-.clearRefinements {
-    font-size: 90%;
-    font-weight: bold;
-    padding-bottom: 0.8em;
-    text-transform: uppercase;
-}
-
-/* Make back to basic link blue to match the default link colour */
-.backToBasic {
-    color: #08c !important;
-}
-
-
-
 
