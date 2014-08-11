@@ -10,13 +10,8 @@ $(document).ready(function() {
   $('head').append('<link rel="stylesheet" type="text/css" href="' + cssPath + 'summon2mods.css" />');
 
   // Accessibility added for advanced search titles
-  $('div.searchBox div.queryBox span.caret').parent().attr('title','advanced search');
-  $('div.search div.queryBox span.caret').parent().attr('title','advanced search');
+  $('div.searchBox div.queryBox span.caret').parent().attr('title','Advanced Search');
+  $('div.search div.queryBox span.caret').parent().attr('title','Advanced Search');
 
-  //Add text to the advanced search button to clearly indicate what it is
-  $('div.buttons span.caret').parent().prepend('Advanced');
-
-  //Add the filter group class to the clearRefinements section to give it a divider
-  $('div.ng-binding.clearRefinements').addClass('FilterGroup');
 
 });
