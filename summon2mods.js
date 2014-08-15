@@ -14,6 +14,7 @@ $(document).ready(function() {
     $('div.searchBox div.queryBox span.caret').parent().attr('title', 'Advanced Search');
     $('div.search div.queryBox span.caret').parent().attr('title', 'Advanced Search');
 
-    $('document.getElementsByTagName("img")[5].src="https://www.library.uq.edu.au/360Link/Testing/360/Library.png"');
-
 });
+
+
+document.getElementsByTagName("img")[5].src="https://www.library.uq.edu.au/360Link/Testing/360/Library.png";
