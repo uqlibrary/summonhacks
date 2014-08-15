@@ -2,16 +2,18 @@
 
 $(document).ready(function() {
 
-  //Dev
-//  var cssPath = '//bypass.hazchem.library.uq.edu.au/summonhacks/summonhacks/',libDetailPageId, newHref, libCurrentURL, record, recordParts, thisID,libCurrentURL = window.location.hash.substring(1);
-  //Staging
-  var cssPath = '//www.library.uq.edu.au/summonhacks/',libDetailPageId, newHref, libCurrentURL, record, recordParts, thisID,libCurrentURL = window.location.hash.substring(1);
-  // Add custom styles
-  $('head').append('<link rel="stylesheet" type="text/css" href="' + cssPath + 'summon2mods.css" />');
+    //Dev
+    //  var cssPath = '//bypass.hazchem.library.uq.edu.au/summonhacks/summonhacks/',libDetailPageId, newHref, libCurrentURL, record, recordParts, thisID,libCurrentURL = window.location.hash.substring(1);
+    //Staging
+    var cssPath = '//www.library.uq.edu.au/summonhacks/',
+        libDetailPageId, newHref, libCurrentURL, record, recordParts, thisID, libCurrentURL = window.location.hash.substring(1);
+    // Add custom styles
+    $('head').append('<link rel="stylesheet" type="text/css" href="' + cssPath + 'summon2mods.css" />');
 
-  // Accessibility added for advanced search titles
-  $('div.searchBox div.queryBox span.caret').parent().attr('title','Advanced Search');
-  $('div.search div.queryBox span.caret').parent().attr('title','Advanced Search');
+    // Accessibility added for advanced search titles
+    $('div.searchBox div.queryBox span.caret').parent().attr('title', 'Advanced Search');
+    $('div.search div.queryBox span.caret').parent().attr('title', 'Advanced Search');
 
+    $('document.getElementsByTagName("img")[5].src="https://www.library.uq.edu.au/360Link/Testing/360/Library.png"');
 
 });
