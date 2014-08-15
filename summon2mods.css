@@ -7,6 +7,7 @@
 .siteHeader .Logo img {
     max-height: 48px !important;
     margin-top: -8px;
+    margin-left: 10px;
     width: 320px;
 }
 }
