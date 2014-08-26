@@ -5,7 +5,7 @@
 }
 @media screen and (min-width: 1025px) {
     .siteHeader .Logo img {
-        content: url("https://www.library.uq.edu.au/360Link/Testing/360/Library.png");
+        content: url("https://www.library.uq.edu.au/summonhacks/LibraryWhite.png");
         max-height: 48px !important;
         margin-top: -8px;
         margin-left: 10px;
