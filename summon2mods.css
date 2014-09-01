@@ -32,7 +32,7 @@
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#8631a6', endColorstr='#5e2179', GradientType=0) !important;
     /* IE6-8 */
 }
-.customHeader:hover{
+.customHeader a:hover{
     -webkit-filter: drop-shadow(0px 0px 1px rgba(255,255,255,0.5));
 }
 
