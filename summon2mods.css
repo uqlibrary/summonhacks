@@ -7,9 +7,15 @@
     .siteHeader .Logo img {
         content: url("https://www.library.uq.edu.au/summonhacks/LibraryWhite.png");
         max-height: 48px !important;
-        margin-top: -8px;
+        margin-top: -4px;
         margin-left: 10px;
         width: 320px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .customHeader {
+        padding-top: 12px;
+        padding-bottom: 4px;
     }
 }
 .customHeader {
@@ -31,6 +37,7 @@
     /* W3C */
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#8631a6', endColorstr='#5e2179', GradientType=0) !important;
     /* IE6-8 */
+    padding-top: 21px;
 }
 .siteHeader .Logo img:hover{
     -webkit-filter: drop-shadow(0px 0px 1px rgba(255,255,255,0.5));
