@@ -46,3 +46,18 @@
 .customAuthBanner {
     background-color: #39892F !important;
 }
+
+.btn-inverse {
+    background-color: #5fa90a !important;
+    background-image: -moz-linear-gradient(top, #64b10b, #589c0a) !important;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#64b10b), to(#589c0a)) !important;
+    background-image: -webkit-linear-gradient(top, #64b10b, #589c0a) !important;
+    background-image: -o-linear-gradient(top, #64b10b, #589c0a) !important;
+    background-image: linear-gradient(to bottom, #64b10b, #589c0a) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#61ac0b', endColorstr='#55970a', GradientType=0);
+    border-color: none !important;
+    border-radius: 0px 3px 3px 0px !important;
+}
+.btn-inverse:hover, .btn-inverse:focus, .btn-inverse:active, .btn-inverse.active, .btn-inverse.disabled, .btn-inverse[disabled] {
+    background-color: #589c0a !important;
+}
