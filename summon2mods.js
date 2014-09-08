@@ -17,6 +17,9 @@ $(document).ready(function() {
     // Adds higher resolution logo image:
     // for mobile
     document.getElementsByClassName("col Logo ng-isolate-scope")[0].getElementsByTagName('img')[0].src = 'https://www.library.uq.edu.au/summonhacks/LibraryWhite.png';
+    document.getElementsByClassName("col Logo ng-isolate-scope")[0].getElementsByTagName('img')[0].title = 'UQ Library Homepage';
     // for tablets and larger
     document.getElementsByClassName("col hidden-phone Logo ng-isolate-scope")[0].getElementsByTagName('img')[0].src = 'https://www.library.uq.edu.au/summonhacks/LibraryWhite.png';
+    // document.getElementsByClassName("col hidden-phone Logo ng-isolate-scope")[0].getElementsByTagName('img')[0].alt = 'UQ Library Homepage';
+    document.getElementsByClassName("col hidden-phone Logo ng-isolate-scope")[0].getElementsByTagName('img')[0].title = 'UQ Library Homepage';
 });
