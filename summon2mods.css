@@ -47,7 +47,7 @@
     background-color: #39892F !important;
 }
 
-.btn-inverse:first-of-type {
+.buttons > .btn-inverse {
     border-radius: 0px 3px 3px 0px !important;
 }
 
@@ -60,6 +60,7 @@
     background-image: linear-gradient(to bottom, #64b10b, #589c0a) !important;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#61ac0b', endColorstr='#55970a', GradientType=0);
     border-color: none !important;
+    border-radius: 3px !important;
 }
 .btn-inverse:hover, .btn-inverse:focus, .btn-inverse:active, .btn-inverse.active, .btn-inverse.disabled, .btn-inverse[disabled] {
     background-color: #589c0a !important;
