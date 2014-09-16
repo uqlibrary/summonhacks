@@ -1,0 +1,19 @@
+{
+  "aws_s3": {
+    "options": {
+      "accessKeyId": "REPLACEME",
+      "secretAccessKey": "REPLACEME",
+      "region": "REPLACEME",
+      "bucket": "REPLACEME",
+      "dest": "REPLACEME"
+    }
+  },
+  "invalidate_cloudfront": {
+    "options": {
+      "key": "REPLACEME",
+      "secret": "REPLACEME",
+      "distribution": "REPLACEME",
+      "region": "REPLACEME"
+    }
+  }
+}

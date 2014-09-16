@@ -1,1 +1,5 @@
 .idea
+.sass-cache
+dist
+node_modules
+uql.conf.json
