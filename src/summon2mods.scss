@@ -62,10 +62,36 @@
   background-color: #589c0a !important;
 }
 
-.searchInfo .metadata .btn-link,
-.availability .dynamicLink .availabilityLink {
+.availability a {
   color: #2662E3 !important;
   &:hover {
     color: #9312AA !important;
   }
+}
+
+.searchInfo .metadata .btn-link {
+  color: #2662E3 !important;
+}
+
+.optionsArrow,
+.btn-group.open .optionsArrow {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: top;
+  border-top: 4px solid black;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  content: "";
+  margin-top: 12px;
+  border-top-color: #2662E3;
+  top: 0px;
+}
+
+.btn-group.open .optionsArrow {
+  @include transform(rotate(180deg));
+}
+
+.contentType .icon {
+  opacity: 0.5;
 }
