@@ -84,10 +84,10 @@ module.exports = function (grunt) {
       production: {
         files: [{
           expand: true,
-          cwd: '',
+          cwd: '<%= hacksConfig.dist %>',
           src: '*.{css,js,png,jpg,jpeg,gif,webp}',
           filter: 'isFile',
-          dest: ''
+          dest: '<%= hacksConfig.aws_s3.options.dest %>'
         }]
       }
     },
@@ -119,8 +119,8 @@ module.exports = function (grunt) {
     'copy',
     'uglify',
     'cssmin:dist',
-    'aws_s3:production'//,
-    //'invalidate_cloudfront'
+    'aws_s3:production',
+    'invalidate_cloudfront'
   ]);
 
   grunt.registerTask('default', ['jshint', 'watch']);
