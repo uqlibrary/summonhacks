@@ -13,6 +13,9 @@
     }
 }
 @media screen and (max-width: 1024px) {
+    .siteHeader .Logo img {
+        content: url("https://www.library.uq.edu.au/summonhacks/LibraryWhite.png");
+    }
     .customHeader {
         padding-top: 12px;
         padding-bottom: 4px;
