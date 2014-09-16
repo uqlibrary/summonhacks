@@ -19,13 +19,13 @@ module.exports = function (grunt) {
     hacksConfig: hacksConfig,
     watch: {
       compass: {
-        files: ['<%= hacksConfig.app %>/sass/*.{scss,sass}'],
+        files: ['<%= hacksConfig.app %>/*.{scss,sass}'],
         tasks: ['compass']
       }
     },
     compass: {
       options: {
-        sassDir: '<%= hacksConfig.app %>/sass',
+        sassDir: '<%= hacksConfig.app %>',
         cssDir: '<%= hacksConfig.app %>'
       },
       dist: {}
