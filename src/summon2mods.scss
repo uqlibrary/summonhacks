@@ -87,10 +87,6 @@
   top: 0px;
 }
 
-.btn-group.open .optionsArrow {
-  @include transform(rotate(180deg));
-}
-
 .contentType .icon {
   opacity: 0.5;
 }
