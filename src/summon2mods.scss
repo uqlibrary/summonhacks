@@ -44,10 +44,8 @@
 }
 
 .btn-inverse {
-  background-color: #5fa90a !important;
-  @include background(linear-gradient(top, #64b10b, #589c0a));
-  background: linear-gradient(to bottom, #64b10b, #589c0a) !important;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#61ac0b', endColorstr='#55970a', GradientType=0);
+  background-color: #64b10b !important;
+  @include background(#64b10b);
   border-color: none !important;
   border-radius: 3px !important;
 }
