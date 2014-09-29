@@ -7,16 +7,18 @@
 @media screen and (min-width: 1025px) {
   .siteHeader .Logo img {
     max-height: 48px !important;
-    margin-top: -4px;
+    margin-top: -8px;
     margin-left: 10px;
     width: 320px;
   }
 }
 
 @media screen and (max-width: 1024px) {
+  img {
+    max-height: 32px !important;
+  }
   .customHeader {
-    padding-top: 12px;
-    padding-bottom: 4px;
+    padding: 17px 0 4px 0;
   }
 }
 

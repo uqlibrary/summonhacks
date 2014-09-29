@@ -15,6 +15,7 @@
       $('div.search div.queryBox span.caret').parent().attr('title', 'Advanced Search');
       // Adds a title to the logo image
       $('.customHeader .Logo img').attr('title', 'UQ Library Homepage');
+      $('.customHeader .Logo img').attr('alt', 'UQ Library Homepage');
       // Replace site logo image
       $('.siteHeader .Logo img').attr('src', base + '/LibraryWhite.png');
     } catch (e) {}
