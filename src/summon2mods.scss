@@ -5,6 +5,9 @@
 }
 
 @media screen and (min-width: 1025px) {
+  .Logo {
+    width: 370px !important;
+  }
   .siteHeader .Logo img {
     max-height: 48px !important;
     margin-top: -8px;
