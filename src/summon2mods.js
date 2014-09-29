@@ -12,9 +12,12 @@
       $('head').append('<link rel="stylesheet" type="text/css" href="' + base + '/summon2mods.css" />');
       // Accessibility added for advanced search titles
       $('div.searchBox div.queryBox span.caret').parent().attr('title', 'Advanced Search');
+      $('div.searchBox div.queryBox span.caret').parent().attr('alt', 'Advanced Search');
       $('div.search div.queryBox span.caret').parent().attr('title', 'Advanced Search');
+      $('div.search div.queryBox span.caret').parent().attr('alt', 'Advanced Search');
       // Adds a title to the logo image
       $('.customHeader .Logo img').attr('title', 'UQ Library Homepage');
+      $('.customHeader .Logo img').attr('alt', 'UQ Library Homepage');
     } catch (e) {}
   });
 })();
