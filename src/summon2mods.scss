@@ -71,12 +71,8 @@
   }
 }
 
-.availability span {
+.availability > div > div > span.ng-binding {
   display: none;
-}
-
-.availability span a {
-  display: visible;
 }
 
 .searchInfo .metadata .btn-link {
