@@ -4,6 +4,15 @@
   display: none !important;
 }
 
+@media screen and (min-width: 1025px) {
+  .siteHeader .Logo img {
+    max-height: 48px !important;
+    margin-top: -4px;
+    margin-left: 10px;
+    width: 320px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .customHeader {
     padding-top: 12px;
