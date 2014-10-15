@@ -10,14 +10,6 @@
       var base = 'https://d3nm82zk9ronst.cloudfront.net/summonhacks';
       // Add custom styles
       $('head').append('<link rel="stylesheet" type="text/css" href="' + base + '/summon2mods.css" />');
-      // Accessibility added for advanced search titles
-      $('div.searchBox div.queryBox span.caret').parent().attr('title', 'Advanced Search');
-      $('div.search div.queryBox span.caret').parent().attr('title', 'Advanced Search');
-      // Adds a title to the logo image
-      $('.customHeader .Logo img').attr('title', 'UQ Library Homepage');
-      $('.customHeader .Logo img').attr('alt', 'UQ Library Homepage');
-      // Replace site logo image
-      $('.siteHeader .Logo img').attr('src', base + '/LibraryWhite.png');
     } catch (e) {}
   });
 })();
