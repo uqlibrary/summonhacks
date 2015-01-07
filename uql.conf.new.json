@@ -1,19 +1,19 @@
 {
   "aws_s3": {
     "options": {
-      "accessKeyId": "REPLACEME",
-      "secretAccessKey": "REPLACEME",
-      "region": "REPLACEME",
-      "bucket": "REPLACEME",
+      "accessKeyId": "AKIAI62FSM2VKQUERXDQ",
+      "secretAccessKey": "houjTQiKbG+DbV23GUgzIWBVU9IiqEDntlEb9aUf",
+      "region": "ap-southeast-2",
+      "bucket": "uql-public/summonhacks",
       "dest": "REPLACEME"
     }
   },
   "invalidate_cloudfront": {
     "options": {
-      "key": "REPLACEME",
-      "secret": "REPLACEME",
+      "key": "AKIAI62FSM2VKQUERXDQ",
+      "secret": "houjTQiKbG+DbV23GUgzIWBVU9IiqEDntlEb9aUf",
       "distribution": "REPLACEME",
-      "region": "REPLACEME"
+      "region": "ap-southeast-2"
     }
   }
 }
