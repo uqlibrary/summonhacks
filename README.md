@@ -6,7 +6,7 @@ Minor Summon 2.0 CSS and Javascript modifications and tweaks to improve usabilit
 
     $ cd /path/to/repo
     $ cp uql.conf.new.json uql.conf.json
-    $ vim uql.conf.json // to put in the keys of the deployment user (NOT YOUR USER)
+    $ vim uql.conf.json // to put in the api keys of "uql-frontend-deploy" (NOT YOUR USER)
     $ npm install
     $ grunt
 
