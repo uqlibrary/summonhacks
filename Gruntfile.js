@@ -10,8 +10,8 @@ module.exports = function (grunt) {
   };
 
   try {
-    hacksConfig.aws_s3 = require('./uql.conf.json').aws_s3 || {};
-    hacksConfig.invalidate_cloudfront = require('./uql.conf.json').invalidate_cloudfront || {};
+    hacksConfig.aws_s3 = require('./aws.json').aws_s3 || {};
+    hacksConfig.invalidate_cloudfront = require('./aws.json').invalidate_cloudfront || {};
   } catch (e) {
   }
 

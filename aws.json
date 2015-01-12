@@ -1,0 +1,19 @@
+{
+  "aws_s3": {
+    "options": {
+      "accessKeyId": "<AWSAccessKeyId>",
+      "secretAccessKey": "<AWSSecretKey>",
+      "region": "<AWSRegion>",
+      "bucket": "<S3Bucket>",
+      "dest": "<CFDistribution>"
+    }
+  },
+  "invalidate_cloudfront": {
+    "options": {
+      "key": "<AWSAccessKeyId>",
+      "secret": "<AWSSecretKey>",
+      "distribution": "<CFDistribution>",
+      "region": "<AWSRegion>"
+    }
+  }
+}
