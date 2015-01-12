@@ -5,7 +5,7 @@
       "secretAccessKey": "<AWSSecretKey>",
       "region": "<AWSRegion>",
       "bucket": "<S3Bucket>",
-      "dest": "<CFDistribution>"
+      "dest": "<S3Folder>"
     }
   },
   "invalidate_cloudfront": {
