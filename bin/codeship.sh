@@ -1,6 +1,10 @@
 #!/bin/bash
 
-set -xe
+# Frontend tests
+gem install campy
+gem install sass
+gem install compass
+rbenv rehash
 
 # Use env vars to set AWS config
 set +x
