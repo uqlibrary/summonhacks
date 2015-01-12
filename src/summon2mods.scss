@@ -100,3 +100,21 @@
 .contentType .icon {
   opacity: 0.5;
 }
+
+
+/*
+Colour contrast updated for accessibility version of Summon
+so colours now pass WCAG 2.0 AA
+*/
+.green {
+  color: #008941;
+}
+.grey {
+  color: #767676;
+}
+.orange {
+  color: #ba5d00;
+}
+#mobile-version-indicator {
+  color: #767676;
+}
