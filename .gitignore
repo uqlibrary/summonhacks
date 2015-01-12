@@ -2,5 +2,4 @@
 .sass-cache
 .tmp
 src/summon2mods.css
-dist
 uql.conf.json
