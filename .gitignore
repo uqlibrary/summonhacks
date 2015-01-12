@@ -3,5 +3,4 @@
 .tmp
 src/summon2mods.css
 dist
-node_modules
 uql.conf.json
