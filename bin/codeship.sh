@@ -1,5 +1,6 @@
 #!/bin/bash
 
+set -xe
 # Frontend tests
 gem install campy
 gem install sass
