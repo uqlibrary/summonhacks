@@ -117,6 +117,7 @@ module.exports = function (grunt) {
     'compass:dist',
     'jshint',
     'copy',
+    'uglify',
     'cssmin:dist',
     'aws_s3:production',
     'invalidate_cloudfront'
