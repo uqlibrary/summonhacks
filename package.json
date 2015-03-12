@@ -11,7 +11,7 @@
     "grunt-contrib-copy": "~0.4.0",
     "grunt-contrib-cssmin": "~0.4.0",
     "grunt-contrib-jshint": "~0.1.0",
-    "grunt-contrib-uglify": "~0.8.0",
+    "grunt-contrib-uglify": "~0.2.0",
     "grunt-contrib-watch": "~0.4.0",
     "grunt-invalidate-cloudfront": "~0.1.1",
     "matchdep": "~0.1.1"
