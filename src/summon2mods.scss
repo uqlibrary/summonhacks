@@ -44,7 +44,7 @@
     background-color: #64b10b !important;
     @include background(#64b10b);
     border-color: none !important;
-    border-radius: 3px !important;
+    border-radius: 0px !important;
 }
 .btn-inverse:hover, .btn-inverse:focus, .btn-inverse:active, .btn-inverse.active, .btn-inverse.disabled, .btn-inverse[disabled] {
     background-color: #589c0a !important;
