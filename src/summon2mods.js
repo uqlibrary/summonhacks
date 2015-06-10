@@ -15,7 +15,7 @@
         '<div style="margin: 1em 5% 0 5%;">' +
         '<p style="font-size: 16px; font-weight: bold; color: red; text-align: left;">' +
 
-        'UQ Library Search is currently experiencing a problem where journal articles appear as books and links do not resolve to the full text article. ' +
+        'UQ Library Search is currently experiencing a problem where some journal articles appear as books, and their links do not resolve to the full text article. ' +
         'This problem will be resolved by Thursday afternoon (June 11th) as we work with our vendor. We apologise for the inconvenience.' +
 
         '</p>' +
