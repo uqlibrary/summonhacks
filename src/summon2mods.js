@@ -26,4 +26,4 @@ $(document).ready(function() {
     '</p>' +
     '</div>'
   );
-});
+}, 4000);
